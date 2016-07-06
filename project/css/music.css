@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+#yy{width:100%;height:560px;background:url("../music/bg.jpg") no-repeat;}
+#yy .yy-l,#yy .yy-r{width:626px;height:534px;
+background:url("../music/yybw.png") no-repeat;
+position:relative;margin-left:200px;}
+
+#yy .yy-r{
+position:absolute;left:50%;top:50px;margin-left:-100px;}
+
+#yy .yy-l .bg{position:absolute;left:59px;top:60px;border-radius:50%;}
+#yy .yy-l .jd
+{	width:415px;height:415px;
+	background:url("../music/yyjd.png") no-repeat;
+	position:absolute;left:59px;top:60px;
+}
+#yy .yy-l .jd.zq{-webkit-animation:zqq 30s infinite linear;/*动画*/}
+@keyframes zqq{
+0%{transform:rotate(0deg)} /*旋转*/
+100%{transform:rotate(360deg)}	
+}
+#yy .yy-l .yy-main{width:415px;height:415px;position:absolute;left:60px;top:60px;}
+#yy .yy-l .yy-main .singname{width:100%;font-size:20px;color:#fff;
+text-align:center;margin-top:100px;}
+#yy .yy-l .yy-main .name{width:100%;font-size:20px;color:#0C0;
+text-align:center;margin-top:10px;}
+#yy .yy-l .yy-main .start{width:120px;height:120px;border-radius:50%;
+position:absolute;top: 180px;left: 151px;
+}
+.start.bq{-webkit-animation:zqq 30s infinite linear;/*动画*/}
+#yy .yy-l .yy-main .begin{position:absolute;top: 216px;left: 180px;
+cursor:pointer;
+}
+#yy .yy-l .yy-main a{display:block;width:42px;height:20px;
+text-decoration:none;color:#fff;font-size:14px;
+background:red;position:absolute;top:70%;padding-top:33px;text-align:center;
+}
+#yy .yy-l .yy-main a.ht{left:150px;background:url("../music/ht.png") no-repeat;}
+#yy .yy-l .yy-main a.next{margin-top:2px;right:128px;background:url("../music/next.png") no-repeat;}
+
+#yy .yy-r .m_con
+{	width:400px;height:450px;color:#CCC;
+	position:absolute;top:63px;left:68px;
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+div,span,p,span,img{margin:0;padding:0;}
+.main,.main-t{width:1000px;margin:20px auto;box-shadow:0px 10px 24px 5px rgba(102,255,204,0.5);}
+.main p,.main-t p{text-indent:25px;line-height:30px;text-align:left;}
+.main span,.main-t span{width:200px;height:50px;margin:10px auto;color:#999;line-height:50px;}
+.main-t h1{width:400px;height:50px;background:#F6C;line-height:50px;}
+.main-t img{width:600px;height:300px;}
+
